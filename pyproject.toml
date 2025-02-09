@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "airticle-chatbot"
+version = "0.0.1"
+authors = [
+  { name="Sean Doyle", email="sean@ayerdoyles.org" },
+]
+description = ""
+readme = "README.md"
+requires-python = "==3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src/airticle-chatbot",
+]
