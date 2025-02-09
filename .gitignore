@@ -3,3 +3,5 @@ Sandbox.py
 .vscode
 venv
 *.pyc
+
+.env
