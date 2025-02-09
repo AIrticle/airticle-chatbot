@@ -5,3 +5,7 @@ venv
 *.pyc
 
 .env
+
+mock_database/*
+
+.DS_Store
